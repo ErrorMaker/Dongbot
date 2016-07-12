@@ -1,0 +1,38 @@
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\hackmydick.pdb
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\FlashInspect.dll
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\Sulakore.dll
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\Tangine.dll
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\Sulakore.xml
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\Tangine.xml
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.csprojResolveAssemblyReference.cache
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.Form1.resources
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.Properties.Resources.resources
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.csproj.GenerateResource.Cache
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.pdb
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\hackmydick.dll.config
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\bin\Debug\hackmydick.dll
+C:\Users\the gibson\documents\visual studio 2015\Projects\hackmydick\hackmydick\obj\Debug\hackmydick.dll
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\bin\Debug\hackmydick.dll.config
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\bin\Debug\hackmydick.dll
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\bin\Debug\hackmydick.pdb
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\bin\Debug\Sulakore.xml
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\bin\Debug\Tangine.xml
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.csprojResolveAssemblyReference.cache
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.Form1.resources
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.Properties.Resources.resources
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.csproj.GenerateResource.Cache
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.dll
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.pdb
+C:\Users\charlie\Desktop\useful shit\programming shit\csharp projects\hackmydick\hackmydick\obj\Debug\hackmydick.Custom.resources
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\hackmydick.dll.config
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\hackmydick.dll
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\hackmydick.pdb
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\Sulakore.xml
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\Tangine.xml
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.csprojResolveAssemblyReference.cache
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.Custom.resources
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.Form1.resources
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.Properties.Resources.resources
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.csproj.GenerateResource.Cache
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.dll
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.pdb
