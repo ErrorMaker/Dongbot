@@ -272,9 +272,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.LogsRTB);
-            this.groupBox1.Location = new System.Drawing.Point(228, 98);
+            this.groupBox1.Location = new System.Drawing.Point(234, 98);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(321, 176);
+            this.groupBox1.Size = new System.Drawing.Size(315, 176);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Logs";
@@ -283,10 +283,10 @@
             // 
             this.LogsRTB.BackColor = System.Drawing.Color.White;
             this.LogsRTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LogsRTB.Location = new System.Drawing.Point(6, 19);
+            this.LogsRTB.Location = new System.Drawing.Point(2, 15);
             this.LogsRTB.Name = "LogsRTB";
             this.LogsRTB.ReadOnly = true;
-            this.LogsRTB.Size = new System.Drawing.Size(309, 149);
+            this.LogsRTB.Size = new System.Drawing.Size(309, 161);
             this.LogsRTB.TabIndex = 0;
             this.LogsRTB.Text = "";
             // 
@@ -318,7 +318,7 @@
             // VisBx
             // 
             this.VisBx.AutoSize = true;
-            this.VisBx.Location = new System.Drawing.Point(104, 65);
+            this.VisBx.Location = new System.Drawing.Point(104, 67);
             this.VisBx.Name = "VisBx";
             this.VisBx.Size = new System.Drawing.Size(92, 17);
             this.VisBx.TabIndex = 2;

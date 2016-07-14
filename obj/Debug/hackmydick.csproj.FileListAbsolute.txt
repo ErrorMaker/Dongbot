@@ -36,3 +36,6 @@ C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.Propertie
 C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.csproj.GenerateResource.Cache
 C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.dll
 C:\Users\the gibson\Desktop\hackmydick\hackmydick\obj\Debug\hackmydick.pdb
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\FlashInspect.dll
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\Sulakore.dll
+C:\Users\the gibson\Desktop\hackmydick\hackmydick\bin\Debug\Tangine.dll

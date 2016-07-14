@@ -45,7 +45,7 @@ namespace hackmydick
         private Panel CustomPanel { get; set; }
 
         private bool Running = false;
-
+        int accuratePositionX, accuratePositionY;
         #endregion
 
 
@@ -162,6 +162,17 @@ namespace hackmydick
             gg3.XDeviation = 2;
             gg3.YDeviation = 10;
             GGames.Add(gg3);
+
+            
+            GameInfo gg4 = new GameInfo("Shar & Lau");
+            gg4.LeftID = 173936507;
+            gg4.RightID = 242509285;
+            gg4.LeverID = 246353519;
+            gg4.XDeviation = 3;
+            gg4.YDeviation = 20;
+            GGames.Add(gg4);
+
+      
 
             foreach (GameInfo g in GGames)
             {
@@ -283,6 +294,9 @@ namespace hackmydick
                 CForm.UpdatePercentage(PillowCount);
             }
         }
+
+
+
         private async void WiredMoveFurniture(DataInterceptedEventArgs e)
         {
             var args = new WiredMoveFurniture(e.Packet);
@@ -291,6 +305,7 @@ namespace hackmydick
             int furniID = args.FurniID;
             int furniDeviatedPosX = 0;
             int furniDeviatedPosY = 0;
+
 
             if (Custom.Pillows.Contains(furniID))
             {
@@ -306,32 +321,46 @@ namespace hackmydick
             if (Running)
             {
 
+                // Special thanks to NSA(niewiarowski) for this method of bypassing the
+                // anti-script method in certain grijpers
+
+                if (args.FurniID == LeftID)
+                    if (args.xPos2 != XDeviation)
+                        accuratePositionY = (args.yPos2 - YDeviation) - (args.xPos2 > XDeviation ? args.xPos2 - XDeviation : XDeviation - args.xPos2);
+                    else
+                        accuratePositionY = args.yPos2 - YDeviation;
+                else if (args.FurniID == RightID)
+                    if (args.yPos2 != YDeviation)
+                        accuratePositionX = (args.xPos2 - XDeviation) - (args.yPos2 > YDeviation ? args.yPos2 - YDeviation : YDeviation - args.yPos2);
+                    else
+                        accuratePositionX = args.xPos2 - XDeviation;
+
                 if (furniID == LeftID)
                 {
                     furniDeviatedPosY = furniRealPosY - YDeviation;
                     YCoord = furniDeviatedPosY;
-                    MainYLbl.Text = YCoord.ToString();
-                    UpdateColors("left", YCoord);
+                    MainYLbl.Text = accuratePositionY.ToString();
+                    UpdateColors("left", accuratePositionY);
                 }
 
                 if (furniID == RightID)
                 {
                     furniDeviatedPosX = furniRealPosX - XDeviation;
                     XCoord = furniDeviatedPosX;
-                    MainXLbl.Text = XCoord.ToString();
-                    UpdateColors("right", XCoord);
+                    MainXLbl.Text = accuratePositionX.ToString();
+                    UpdateColors("right", accuratePositionX);
                 }
-                if (WinBx.Checked && IsHit(XCoord, YCoord))
+                if (WinBx.Checked && IsHit(accuratePositionX, accuratePositionY))
                 {
                     await Connection.SendToServerAsync(Settings.Default.UseFurni, LeverID, 0);
                     LogsRTB.AppendText("[INFO] Won game\n");
-                    XCoord = 0;
-                    YCoord = 0;
+                    accuratePositionX = 0;
+                    accuratePositionY = 0;
                     StopBot("Won game");
                 }
-                else if (LoseBx.Checked && !IsHit(XCoord, YCoord))
+
+                if (LoseBx.Checked & !IsHit(accuratePositionX, accuratePositionY))
                 {
-                  
                     await Connection.SendToServerAsync(Settings.Default.UseFurni, LeverID, 0);
                     LogsRTB.AppendText("[INFO] Lost game\n");
                     XCoord = 0;
@@ -339,14 +368,15 @@ namespace hackmydick
 
                     StopBot("Lost game");
                 }
-
-
-                await Task.Delay(300);
-                XCoord = 0;
-                YCoord = 0;
             }
 
+        
+
+            await Task.Delay(300);
+            accuratePositionX = 0;
+            accuratePositionY = 0;
         }
+
     
         private void StartBot()
         {
